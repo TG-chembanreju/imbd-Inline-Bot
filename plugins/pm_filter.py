@@ -292,7 +292,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('⚙️Dev', url='https://t.me/pushpa_Reju')
                 ]
                 ]
-            await query.message.edit(text="Source Code : <a href='https://github.com/TG-chembanreju'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="Source Code : <a href='https://github.com/TG-chembanreju'>Click here</a>\nUpdate Channel : <a href='https://t.me/updatechannel_forcrime'>By Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -313,8 +313,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('More Bots', url='https://t.me/pushpa_Reju'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/updatechannel_forcrime')
                     ]
                     ]
                 
